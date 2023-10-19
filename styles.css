@@ -1,0 +1,46 @@
+body {
+    margin: 30px;
+}
+
+h1 {
+    color:blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    text-align:left;
+}
+
+h3{
+    text-align: center;
+}
+
+h4 {
+    background-color: burlywood;
+}
+
+table, th, td {
+    border: 1px solid blue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-section {
+    max-width: 480px;
+    width: 100%;
+}
+.image-section img {
+    width: 100%; 
+    height: auto; 
+}
